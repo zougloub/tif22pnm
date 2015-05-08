@@ -33,8 +33,21 @@ Unique advantages (over any other TIFF to PNM converter):
 
 Compilation under UNIX
 ~~~~~~~~~~~~~~~~~~~~~~
+
+Using the configure + makefile:
+
 	./configure
-	./do.sh compile
+	make
+
+or using waf:
+
+-- Get waf from http://waf.io
+
+-- Compile
+
+	/path/to/waf configure --prefix=/usr
+	/path/to/waf
+	/path/to/waf install --destdir=/
 
 Compilation under Win32
 ~~~~~~~~~~~~~~~~~~~~~~~
